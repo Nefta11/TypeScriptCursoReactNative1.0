@@ -4,10 +4,11 @@ import HelloWorldScreen from './src/presentation/Screens/HelloWorldScreen'
 
 export default function App() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex:1}}>
       <HelloWorldScreen/>
     </SafeAreaView>
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+})
