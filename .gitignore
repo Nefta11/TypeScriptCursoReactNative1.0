@@ -1,0 +1,36 @@
+# React Native
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcodeproj
+ios/*.xcworkspace
+ios/*.xcuserdatad/
+android/.gradle/
+android/app/build/
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/raw/
+
+# Misc
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Env files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

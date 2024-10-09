@@ -1,0 +1,44 @@
+# Normalizar los finales de línea automáticamente (LF en el repositorio, CRLF en Windows)
+* text=auto
+
+# Asegurar que los archivos de código fuente usen LF en lugar de CRLF
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.sh     text eol=lf
+*.xml    text eol=lf
+
+# Imágenes y archivos binarios
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.mp4    binary
+*.mov    binary
+
+# Ignorar los cambios en los permisos de los archivos
+*.sh     eol=lf
+*.bat    eol=crlf
+
+# Evitar que los archivos de compilación o temporales sean tratados como texto
+*.exe    binary
+*.dll    binary
+*.obj    binary
+*.so     binary
+*.class  binary
+*.jar    binary
+*.war    binary
+
+# Archivos específicos de Expo/React Native
+.expo/* text eol=lf
+*.lock text eol=lf
