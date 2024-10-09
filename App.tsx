@@ -5,7 +5,7 @@ import HelloWorldScreen from './src/presentation/Screens/HelloWorldScreen'
 export default function App() {
   return (
     <SafeAreaView style={{flex:1}}>
-      <HelloWorldScreen/>
+      <HelloWorldScreen name='Neftali Vergara'/>
     </SafeAreaView>
   )
 }

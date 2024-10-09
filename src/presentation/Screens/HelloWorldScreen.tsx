@@ -1,10 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function HelloWorldScreen() {
+interface Props {
+    name?: string;
+}
+
+export default function HelloWorldScreen({name = "World"}) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>HelloWorldScreen</Text>
+      <Text numberOfLines={1} ellipsizeMode="middle" style={styles.title}>Hello, {name} </Text>
     </View>
   )
 }
