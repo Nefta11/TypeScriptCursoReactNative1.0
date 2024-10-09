@@ -1,11 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView, StyleSheet} from 'react-native'
 import React from 'react'
+import HelloWorldScreen from './src/presentation/Screens/HelloWorldScreen'
 
 export default function App() {
   return (
-    <View>
-      <Text>Welcome to my first app with TypeScript</Text>
-    </View>
+    <SafeAreaView>
+      <HelloWorldScreen/>
+    </SafeAreaView>
   )
 }
 
