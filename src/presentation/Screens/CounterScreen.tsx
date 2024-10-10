@@ -13,12 +13,12 @@ export default function CounterScreen() {
       onPress={ () => setCount( count + 1) }
       onLongPress={() => setCount(0)}
       >
-      <Text>+1</Text>
+      <Text>Incrementar</Text>
     </Pressable>
 
     <Pressable
       onPress={ () => setCount( count - 1) }>
-      <Text>-1</Text>
+      <Text>Desminuir</Text>
     </Pressable>
 
     </View>
@@ -35,6 +35,9 @@ const styles = StyleSheet.create({
         fontSize:80,
         color:"black",
         fontWeight:"300"
+    },
+    button:{
+      backgroundColor:
     }
 
 })
