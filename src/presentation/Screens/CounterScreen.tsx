@@ -37,7 +37,9 @@ const styles = StyleSheet.create({
         fontWeight:"300"
     },
     button:{
-      backgroundColor:
+      backgroundColor:"#5856D6",
+      paddingHorizontal:20,
+      paddingVertical:10
     }
 
 })
