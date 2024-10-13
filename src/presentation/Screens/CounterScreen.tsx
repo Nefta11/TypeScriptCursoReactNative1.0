@@ -1,4 +1,4 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native'
+import { Platform, Pressable, StyleSheet, Text, View } from 'react-native'
 import React, { useState } from 'react'
 
 export default function CounterScreen() {
@@ -12,16 +12,23 @@ export default function CounterScreen() {
       <Pressable
       onPress={ () => setCount( count + 1) }
       onLongPress={() => setCount(0)}
-      style={styles.button}
+      style={({ pressed}) => [
+        styles.button,
+        pressed && styles.buttonPressed
+      ]}
       >
-      <Text style={{color:"white"}}>Incrementar</Text>
+      <Text style={{
+        color: Platform.OS === "android" ? "white": "#4746AB"
+      }}>Incrementar</Text>
     </Pressable>
 
     <Pressable
       onPress={ () => setCount( count - 1) }
       style={styles.button}
       >
-      <Text style={{color:"white"}}>Desminuir</Text>
+      <Text style={{
+        color:Platform.OS === "android" ? "white": "#4746AB"
+      }}>Desminuir</Text>
     </Pressable>
 
     </View>
@@ -40,12 +47,12 @@ const styles = StyleSheet.create({
         fontWeight:"300"
     },
     button:{
-      backgroundColor:"#5856D6",
+      backgroundColor: Platform.OS === "android" ? "#5856D6": "white",
       paddingHorizontal:20,
       paddingVertical:10,
       borderRadius:10,
     },
     buttonPressed:{
-      backgroundColor:"#4746AB"
+      backgroundColor: Platform.OS === "android" ? "#0a0202" : "white"
     }
 })
