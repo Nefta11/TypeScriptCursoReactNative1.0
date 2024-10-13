@@ -21,6 +21,7 @@ export default function CounterScreen() {
   )
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
