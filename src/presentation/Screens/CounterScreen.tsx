@@ -12,13 +12,16 @@ export default function CounterScreen() {
       <Pressable
       onPress={ () => setCount( count + 1) }
       onLongPress={() => setCount(0)}
+      style={styles.button}
       >
-      <Text>Incrementar</Text>
+      <Text style={{color:"white"}}>Incrementar</Text>
     </Pressable>
 
     <Pressable
-      onPress={ () => setCount( count - 1) }>
-      <Text>Desminuir</Text>
+      onPress={ () => setCount( count - 1) }
+      style={styles.button}
+      >
+      <Text style={{color:"white"}}>Desminuir</Text>
     </Pressable>
 
     </View>
@@ -39,7 +42,10 @@ const styles = StyleSheet.create({
     button:{
       backgroundColor:"#5856D6",
       paddingHorizontal:20,
-      paddingVertical:10
+      paddingVertical:10,
+      borderRadius:10,
+    },
+    buttonPressed:{
+      backgroundColor:"#4746AB"
     }
-
 })
