@@ -17,5 +17,4 @@ export const globalStyles = StyleSheet.create({
         bottom: Platform.OS === "android" ? 15 : 0,
     },
 
-    
 })
