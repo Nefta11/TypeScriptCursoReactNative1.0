@@ -9,6 +9,7 @@ export default function CounterM3Screen() {
   const [count, setCount] = useState(10)
 
   return (
+    
     <View style={globalStyles.centerContainer}>
       <Text style={globalStyles.title}>{count}</Text>
       <Text>Holaa</Text>
@@ -22,6 +23,7 @@ export default function CounterM3Screen() {
       style={globalStyles.fab}
       />
     </View>
+
 
 )
 }
