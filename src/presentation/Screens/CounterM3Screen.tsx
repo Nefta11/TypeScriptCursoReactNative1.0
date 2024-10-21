@@ -23,6 +23,5 @@ export default function CounterM3Screen() {
       />
     </View>
 
-    
 )
 }
