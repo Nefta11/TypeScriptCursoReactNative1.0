@@ -22,5 +22,7 @@ export default function CounterM3Screen() {
       style={globalStyles.fab}
       />
     </View>
+
+    
 )
 }
