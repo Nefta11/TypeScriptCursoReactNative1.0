@@ -1,3 +1,2 @@
 # TypeScriptCursoReactNative1.0
   
-  
