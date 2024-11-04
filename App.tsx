@@ -19,7 +19,7 @@ export default function App() {
     {/* <CounterScreen/>*/}
     <CounterM3Screen/>
     </SafeAreaView>
-    </PaperProvider>
+    </PaperProvider> 
   )
 }
 
