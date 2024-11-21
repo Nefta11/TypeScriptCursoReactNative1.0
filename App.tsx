@@ -5,6 +5,7 @@ import CounterScreen from './src/presentation/Screens/CounterScreen'
 import { PaperProvider } from 'react-native-paper'
 import CounterM3Screen from './src/presentation/Screens/CounterM3Screen'
 import IonIcon from 'react-native-vector-icons/Ionicons'
+import { BoxObjectModelScreen } from './src/presentation/Screens/BoxObjectModelScreen'
 
 
 export default function App() {
@@ -17,7 +18,8 @@ export default function App() {
     <SafeAreaView style={{flex:1}}>
      {/* <HelloWorldScreen name='Neftali Vergara'/> */}
     {/* <CounterScreen/>*/}
-    <CounterM3Screen/>
+    {/*<CounterM3Screen/>*/}
+    <BoxObjectModelScreen/>
     </SafeAreaView>
     </PaperProvider> 
   )
