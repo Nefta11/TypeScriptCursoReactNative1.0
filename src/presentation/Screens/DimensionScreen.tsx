@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     container: {
         width: 300,
         height: 300,
-        backgroundColor: 'red'
+        backgroundColor: 'green'
     },
     purpleBox: {
         backgroundColor: '#5856D6',
