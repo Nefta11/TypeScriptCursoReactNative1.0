@@ -3,7 +3,7 @@ import { View, Text } from 'react-native'
 const PositionScreen = () => {
     return (
         <View>
-            <Text></Text>
+            <Text>Holaa Mundo</Text>
         </View>
     )
 }
