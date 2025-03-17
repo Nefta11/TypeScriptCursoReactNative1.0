@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         borderWidth: 10,
         borderColor: 'white',
         top: 0,
-        left: -100,
+        left: 0,
     }
 })
 
