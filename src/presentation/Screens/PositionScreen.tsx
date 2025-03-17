@@ -18,6 +18,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#28c4d9',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     purpleBox: {
         width: 100,
@@ -34,6 +36,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#f0a23b',
         borderWidth: 10,
         borderColor: 'white',
+        top: 0,
+        left: -100,
     }
 })
 
