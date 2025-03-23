@@ -1,4 +1,4 @@
-import { SafeAreaView, StyleSheet} from 'react-native'
+import { SafeAreaView, StyleSheet } from 'react-native'
 import React from 'react'
 import HelloWorldScreen from './src/presentation/Screens/HelloWorldScreen'
 import CounterScreen from './src/presentation/Screens/CounterScreen'
@@ -9,28 +9,30 @@ import { BoxObjectModelScreen } from './src/presentation/Screens/BoxObjectModelS
 import DimensionScreen from './src/presentation/Screens/DimensionScreen'
 import PositionScreen from './src/presentation/Screens/PositionScreen'
 import FlexScreen from './src/presentation/Screens/FlexScreen'
+import FlexDirectionScreen from './src/presentation/Screens/FlexDirectionScreen'
 
 export default function App() {
   return (
     <PaperProvider
-    settings={{
-      icon: props => <IonIcon {...props} />
-    }}
+      settings={{
+        icon: props => <IonIcon {...props} />
+      }}
     >
-    <SafeAreaView style={{flex:1}}>
-     {/* <HelloWorldScreen name='Neftali Vergara'/> */}
-    {/* <CounterScreen/>*/}
-    {/*<CounterM3Screen/>*/}
-    {/*<BoxObjectModelScreen/>*/}
-    {/*<DimensionScreen/>*/}
-    {/*<PositionScreen/>*/}
-    <FlexScreen/>
-    </SafeAreaView>
-    </PaperProvider> 
+      <SafeAreaView style={{ flex: 1 }}>
+        {/* <HelloWorldScreen name='Neftali Vergara'/> */}
+        {/* <CounterScreen/>*/}
+        {/*<CounterM3Screen/>*/}
+        {/*<BoxObjectModelScreen/>*/}
+        {/*<DimensionScreen/>*/}
+        {/*<PositionScreen/>*/}
+        {/*<FlexScreen/>*/}
+        <FlexDirectionScreen />
+      </SafeAreaView>
+    </PaperProvider>
   )
 }
 
 const styles = StyleSheet.create({
 
-  
+
 })
