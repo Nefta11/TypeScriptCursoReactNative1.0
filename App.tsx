@@ -24,6 +24,7 @@ export default function App() {
     {/*<BoxObjectModelScreen/>*/}
     {/*<DimensionScreen/>*/}
     {/*<PositionScreen/>*/}
+    <FlexScreen/>
     </SafeAreaView>
     </PaperProvider> 
   )

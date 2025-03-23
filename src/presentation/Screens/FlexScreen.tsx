@@ -19,12 +19,15 @@ const styles = StyleSheet.create({
     },
     box1: {
         backgroundColor: '#5856d6',
+        flex: 1,
     },
     box2: {
         backgroundColor: '#f0a23b',
+        flex: 1,
     },
     box3: {
         backgroundColor: '#28c4d9',
+        flex: 1,
     },
 })
 
