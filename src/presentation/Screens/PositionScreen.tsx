@@ -4,11 +4,15 @@ const PositionScreen = () => {
     return (
         <View style={styles.container}>
             <View
+                style={styles.GreenBox}
+            />
+            <View
                 style={styles.purpleBox}
             />
             <View
                 style={styles.orangeBox}
             />
+
 
         </View>
     )
@@ -18,8 +22,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#28c4d9',
-        justifyContent: 'center',
-        alignItems: 'center',
+        //justifyContent: 'center',
+        //alignItems: 'center',
     },
     purpleBox: {
         width: 100,
@@ -27,8 +31,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#5856d6',
         borderWidth: 10,
         borderColor: 'white',
-        position: 'relative',
-        top: 0,
+        position: 'absolute',
+        bottom: 0,
     },
     orangeBox: {
         width: 100,
@@ -36,8 +40,22 @@ const styles = StyleSheet.create({
         backgroundColor: '#f0a23b',
         borderWidth: 10,
         borderColor: 'white',
-        top: 0,
-        left: 0,
+        position: 'absolute',
+        right: 0,
+    },
+    GreenBox: {
+        //width: 100,
+        //height: 100,
+        //flex: 1,
+        backgroundColor: 'green',
+        borderWidth: 10,
+        borderColor: 'white',
+        //bottom: 0,
+        //right: 0,
+        //left: 0,
+        //top: 0,
+        //position: 'absolute',
+        ...StyleSheet.absoluteFillObject
     }
 })
 
