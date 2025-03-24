@@ -15,7 +15,10 @@ const HomeWorkScree = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#28425B'
+        backgroundColor: '#28425B',
+        justifyContent: 'flex-start',
+        alignItems: 'flex-start',
+        flexDirection: 'column',
         // TODO: Tarea
 
     },
@@ -30,6 +33,7 @@ const styles = StyleSheet.create({
     },
     orangeBox: {
         backgroundColor: '#F0A23B',
+        height: 500,
     },
     blueBox: {
         backgroundColor: '#28C4D9',
