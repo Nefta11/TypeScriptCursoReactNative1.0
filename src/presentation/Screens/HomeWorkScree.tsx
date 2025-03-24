@@ -22,6 +22,8 @@ const styles = StyleSheet.create({
     box: {
         width: 100,
         height: 100,
+        borderWidth: 10,
+        borderColor: 'white',
     },
     purpleBox: {
         backgroundColor: '#5856D6',
