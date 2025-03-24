@@ -28,14 +28,14 @@ const styles = StyleSheet.create({
     },
     box1: {
         backgroundColor: '#5856d6',
-        top: -100,
+        //top: -100,
     },
     box2: {
         backgroundColor: '#f0a23b',
     },
     box3: {
         backgroundColor: '#28c4d9',
-        top: 100,
+        //top: 100,
     },
 })
 
