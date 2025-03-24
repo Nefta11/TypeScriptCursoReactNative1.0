@@ -10,7 +10,7 @@ import DimensionScreen from './src/presentation/Screens/DimensionScreen'
 import PositionScreen from './src/presentation/Screens/PositionScreen'
 import FlexScreen from './src/presentation/Screens/FlexScreen'
 import FlexDirectionScreen from './src/presentation/Screens/FlexDirectionScreen'
-
+import HomeWorkScree from './src/presentation/Screens/HomeWorkScree'
 export default function App() {
   return (
     <PaperProvider
@@ -26,7 +26,8 @@ export default function App() {
         {/*<DimensionScreen/>*/}
         {/*<PositionScreen/>*/}
         {/*<FlexScreen/>*/}
-        <FlexDirectionScreen />
+        {/*<FlexDirectionScreen />*/}
+        <HomeWorkScree />
       </SafeAreaView>
     </PaperProvider>
   )
