@@ -4,6 +4,9 @@ import { View, StyleSheet } from 'react-native'
 const HomeWorkScree = () => {
     return (
         <View style={styles.container}>
+            <View style={[styles.box, styles.purpleBox]} />
+            <View style={[styles.box, styles.orangeBox]} />
+            <View style={[styles.box, styles.blueBox]} />
 
         </View>
     )
