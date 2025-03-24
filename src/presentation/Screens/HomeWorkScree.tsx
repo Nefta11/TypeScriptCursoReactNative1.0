@@ -26,9 +26,9 @@ const styles = StyleSheet.create({
     orangeBox: {
         backgroundColor: '#F0A23B',
     },
-    greenBox: {
+    blueBox: {
         backgroundColor: '#28C4D9',
-    }
+    },
 })
 
 export default HomeWorkScree
