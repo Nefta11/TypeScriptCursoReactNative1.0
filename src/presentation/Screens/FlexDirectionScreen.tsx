@@ -7,8 +7,6 @@ const FlexDirectionScreen = () => {
             <View style={[styles.box, styles.box1]} />
             <View style={[styles.box, styles.box2]} />
             <View style={[styles.box, styles.box3]} />
-
-
         </View>
     )
 }
