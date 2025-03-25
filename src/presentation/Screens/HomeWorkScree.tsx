@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#28425B',
         justifyContent: 'space-between',
         alignItems: 'center',
+        flexDirection: 'row',
         // TODO: Tarea
 
     },
@@ -31,16 +32,20 @@ const styles = StyleSheet.create({
         backgroundColor: '#5856D6',
        // alignSelf: 'flex-end',
         alignSelf: 'flex-end',
+        height: "100%",
     },
     orangeBox: {
         backgroundColor: '#F0A23B',
         //flex: 1,
+        height: "100%",
+
     },
     blueBox: {
         backgroundColor: '#28C4D9',
         //width:"100%",
         //alignSelf: 'center',
         alignSelf: 'flex-start',
+        height: "100%",
     },
 })
 
