@@ -16,9 +16,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#28425B',
-        justifyContent: 'space-around',
-        alignItems: 'center',
-        flexDirection: 'row-reverse',
+        justifyContent: 'center',
+
         // TODO: Tarea
 
     },
@@ -33,9 +32,11 @@ const styles = StyleSheet.create({
     },
     orangeBox: {
         backgroundColor: '#F0A23B',
+        //flex: 1,
     },
     blueBox: {
         backgroundColor: '#28C4D9',
+        width:"100%",
     },
 })
 
